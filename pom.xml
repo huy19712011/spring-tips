@@ -20,6 +20,7 @@
         <module>dynamic-sql-queries</module>
         <module>mutation-testing</module>
         <module>swagger-demo</module>
+        <module>liquibase-demo</module>
     </modules>
 
     <properties>
