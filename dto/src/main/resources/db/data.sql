@@ -10,3 +10,7 @@ INSERT INTO employees(id, name, email, password) VALUES (2, 'Caroline Lee', 'car
 
 INSERT INTO users(id, user_name, email, password) VALUES (1, 'big_bad_wolf', 'jake.sommers@gmail.com', 'jakepass1');
 INSERT INTO users(id, user_name, email, password) VALUES (2, 'drama_queen', 'lucy.white@gmail.com', 'lucypass1');
+
+INSERT INTO dogs(id, name, age) VALUES (1, 'Sparks', 2);
+
+INSERT INTO cats(id, name, age) VALUES (1, 'Mr Whiskers', 3);

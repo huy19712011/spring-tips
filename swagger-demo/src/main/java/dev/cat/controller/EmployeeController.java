@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@Tag(name = "Employee Module")
 @RestController
 public class EmployeeController {
 
@@ -53,7 +54,6 @@ public class EmployeeController {
         return employeeService.update(employee);
     }
 
-
     @ApiResponses({
             @ApiResponse(responseCode = "200", content = {@Content(mediaType = "application/json",
                     schema = @Schema(implementation = Employee.class))}),
@@ -64,5 +64,4 @@ public class EmployeeController {
         employeeService.deleteById(employeeId);
         return "Deleted employee with id: " + employeeId;
     }
-
 }
