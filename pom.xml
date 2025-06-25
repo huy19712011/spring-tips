@@ -21,6 +21,8 @@
         <module>mutation-testing</module>
         <module>swagger-demo</module>
         <module>liquibase-demo</module>
+        <module>spring-boot-kubernetes-demo</module>
+        <module>graalvm</module>
     </modules>
 
     <properties>
