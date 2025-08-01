@@ -7,5 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DtoDemo {
     public static void main(String[] args) {
         SpringApplication.run(DtoDemo.class, args);
+        System.out.println("running...");
     }
 }
